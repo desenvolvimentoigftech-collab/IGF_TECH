@@ -15,22 +15,64 @@ const catalogNext = document.querySelector("[data-catalog-next]");
 
 const catalogSlides = [
   {
-    src: "assets/catalogo/catalogo-01.png",
-    alt: "Controle de acesso para áreas críticas",
-    title: "Controle de acesso para áreas críticas",
-    text: "Gestão de acessos para subestações, salas elétricas, áreas restritas e ambientes comuns."
+    src: "assets/catalogo/catalogo-01.png?v=5",
+    alt: "Catálogo IGF Tech 01",
+    title: "Catálogo IGF Tech 01",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
   },
   {
-    src: "assets/catalogo/catalogo-02.png",
-    alt: "Bloqueio operacional inteligente",
-    title: "Bloqueio operacional inteligente",
-    text: "Validação por crachá, treinamentos em dia e liberação manual apenas após a retirada de todos os bloqueios."
+    src: "assets/catalogo/catalogo-02.png?v=5",
+    alt: "Catálogo IGF Tech 02",
+    title: "Catálogo IGF Tech 02",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
   },
   {
-    src: "assets/catalogo/catalogo-03.png",
-    alt: "IA para detecção de EPIs",
-    title: "IA para detecção de EPIs",
-    text: "Visão computacional e redes neurais para verificar EPIs e integrar eventos com APIs de acesso ou monitoramento."
+    src: "assets/catalogo/catalogo-03.png?v=5",
+    alt: "Catálogo IGF Tech 03",
+    title: "Catálogo IGF Tech 03",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-04.png?v=5",
+    alt: "Catálogo IGF Tech 04",
+    title: "Catálogo IGF Tech 04",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-05.png?v=5",
+    alt: "Catálogo IGF Tech 05",
+    title: "Catálogo IGF Tech 05",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-06.png?v=5",
+    alt: "Catálogo IGF Tech 06",
+    title: "Catálogo IGF Tech 06",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-07.png?v=5",
+    alt: "Catálogo IGF Tech 07",
+    title: "Catálogo IGF Tech 07",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-08.png?v=5",
+    alt: "Catálogo IGF Tech 08",
+    title: "Catálogo IGF Tech 08",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-09.png?v=5",
+    alt: "Catálogo IGF Tech 09",
+    title: "Catálogo IGF Tech 09",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
+  },
+  {
+    src: "assets/catalogo/catalogo-10.png?v=5",
+    alt: "Catálogo IGF Tech 10",
+    title: "Catálogo IGF Tech 10",
+    text: "Solução industrial IGF Tech para segurança, automação e inteligência operacional."
   }
 ];
 

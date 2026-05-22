@@ -34,15 +34,24 @@ As imagens do carrossel ficam na pasta `assets/catalogo/`.
 
 Use estes nomes:
 
-- `catalogo-01.png`: controle de acesso para áreas críticas.
-- `catalogo-02.png`: bloqueio operacional inteligente.
-- `catalogo-03.png`: IA para detecção de EPIs.
+- `catalogo-01.png`
+- `catalogo-02.png`
+- `catalogo-03.png`
+- `catalogo-04.png`
+- `catalogo-05.png`
+- `catalogo-06.png`
+- `catalogo-07.png`
+- `catalogo-08.png`
+- `catalogo-09.png`
+- `catalogo-10.png`
 
 Formato recomendado:
 
 - `PNG` ou `JPG`.
 - Proporção horizontal `16:9`, por exemplo `1600 x 900 px` ou `1920 x 1080 px`.
 - Se trocar para `JPG`, atualize os caminhos no arquivo `script.js`.
+
+Os arquivos originais enviados foram preservados em `assets/catalogo/originais/`.
 
 ## Arquivos principais
 
