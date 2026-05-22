@@ -674,8 +674,11 @@ img {
   border-radius: var(--radius);
   color: var(--text);
   background: rgba(255, 255, 255, 0.035);
+  font-size: clamp(12px, 1.08vw, 16px);
   font-weight: 700;
-  overflow-wrap: anywhere;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   line-height: 1.35;
 }
 
