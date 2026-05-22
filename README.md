@@ -28,6 +28,22 @@ Formato recomendado:
 - Use uma imagem com boa resolução, por exemplo 600 px de largura ou mais.
 - Evite `JPG`, porque ele não preserva transparência e costuma ficar pior em fundo escuro.
 
+## Imagens do catálogo
+
+As imagens do carrossel ficam na pasta `assets/catalogo/`.
+
+Use estes nomes:
+
+- `catalogo-01.png`: controle de acesso para áreas críticas.
+- `catalogo-02.png`: bloqueio operacional inteligente.
+- `catalogo-03.png`: IA para detecção de EPIs.
+
+Formato recomendado:
+
+- `PNG` ou `JPG`.
+- Proporção horizontal `16:9`, por exemplo `1600 x 900 px` ou `1920 x 1080 px`.
+- Se trocar para `JPG`, atualize os caminhos no arquivo `script.js`.
+
 ## Arquivos principais
 
 - `index.html`: conteúdo da página.

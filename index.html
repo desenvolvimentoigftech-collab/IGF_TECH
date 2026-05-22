@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
   </head>
   <body>
     <header class="site-header" data-header>
@@ -139,6 +139,10 @@
             <p class="eyebrow"><span></span> Nossas soluções</p>
             <h2>Segurança operacional conectada à rotina da indústria.</h2>
             <p>Soluções que combinam automação, controle de acesso, visão computacional e inteligência artificial para proteger pessoas, ativos e processos críticos.</p>
+            <button class="catalog-trigger" type="button" data-catalog-open>
+              Ver catálogo completo
+              <i data-lucide="arrow-right"></i>
+            </button>
           </div>
 
           <div class="product-list">
@@ -215,6 +219,42 @@
       </section>
     </main>
 
+    <div class="catalog-modal" role="dialog" aria-modal="true" aria-labelledby="catalog-title" aria-hidden="true" data-catalog-modal>
+      <div class="catalog-backdrop" data-catalog-close></div>
+      <section class="catalog-dialog" tabindex="-1">
+        <header class="catalog-header">
+          <div>
+            <p class="eyebrow"><span></span> Catálogo de soluções</p>
+            <h2 id="catalog-title">Soluções IGF Tech</h2>
+          </div>
+          <button class="catalog-close" type="button" aria-label="Fechar catálogo" data-catalog-close>
+            <i data-lucide="x"></i>
+          </button>
+        </header>
+
+        <div class="catalog-viewer">
+          <button class="catalog-arrow catalog-arrow-prev" type="button" aria-label="Imagem anterior" data-catalog-prev>
+            <i data-lucide="chevron-left"></i>
+          </button>
+          <figure class="catalog-slide">
+            <img src="assets/catalogo/catalogo-01.png" alt="Controle de acesso para áreas críticas" data-catalog-image>
+            <figcaption>
+              <strong data-catalog-caption-title>Controle de acesso para áreas críticas</strong>
+              <span data-catalog-caption-text>Gestão de acessos para subestações, salas elétricas, áreas restritas e ambientes comuns.</span>
+            </figcaption>
+          </figure>
+          <button class="catalog-arrow catalog-arrow-next" type="button" aria-label="Próxima imagem" data-catalog-next>
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </div>
+
+        <div class="catalog-footer">
+          <div class="catalog-dots" aria-label="Selecionar imagem do catálogo" data-catalog-dots></div>
+          <span class="catalog-count" data-catalog-count>1 / 3</span>
+        </div>
+      </section>
+    </div>
+
     <footer class="site-footer">
       <div class="container footer-content">
         <a class="brand brand-small" href="#inicio" aria-label="IGF Tech">
@@ -225,6 +265,6 @@
     </footer>
 
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
   </body>
 </html>
