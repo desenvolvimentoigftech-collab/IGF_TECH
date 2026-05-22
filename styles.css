@@ -667,6 +667,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
+  min-width: 0;
   min-height: 54px;
   padding: 0 14px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -674,6 +675,8 @@ img {
   color: var(--text);
   background: rgba(255, 255, 255, 0.035);
   font-weight: 700;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
 }
 
 .contact-card svg {
