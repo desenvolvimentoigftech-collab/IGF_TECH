@@ -66,7 +66,7 @@ img {
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 28px;
-  padding: 10px clamp(20px, 4vw, 56px);
+  padding: 8px clamp(20px, 4vw, 56px);
   background: rgba(5, 8, 11, 0.62);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(16px);
@@ -74,15 +74,15 @@ img {
 }
 
 .site-header.is-scrolled {
-  padding-block: 8px;
+  padding-block: 6px;
   background: rgba(5, 8, 11, 0.88);
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  width: 280px;
-  height: 170px;
+  width: 150px;
+  height: 78px;
 }
 
 .brand img {
@@ -125,8 +125,8 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 46px;
-  padding: 0 20px;
+  min-height: 42px;
+  padding: 0 18px;
   border-radius: var(--radius);
   font-weight: 800;
   font-size: 14px;
@@ -200,7 +200,7 @@ img {
   align-items: end;
   justify-content: space-between;
   gap: 40px;
-  padding-top: 118px;
+  padding-top: 86px;
 }
 
 .eyebrow {
@@ -728,7 +728,7 @@ img {
 
   .site-nav {
     position: fixed;
-    inset: 83px 16px auto;
+    inset: 72px 16px auto;
     z-index: 30;
     flex-direction: column;
     align-items: stretch;
@@ -755,7 +755,7 @@ img {
 
   .hero {
     min-height: auto;
-    padding: 140px 0 54px;
+    padding: 116px 0 54px;
   }
 
   .hero-image {
@@ -802,12 +802,12 @@ img {
   }
 
   .brand {
-    width: 190px;
-    height: 116px;
+    width: 126px;
+    height: 66px;
   }
 
   .hero {
-    padding-top: 122px;
+    padding-top: 104px;
   }
 
   .hero-image {
