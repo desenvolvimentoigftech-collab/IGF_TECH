@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="IGF Tech">
+  <rect width="64" height="64" rx="8" fill="#05080b"/>
+  <path d="M12 14h8v36h-8zM45 14h9v8H38v8h14v8H38v12h-9V14z" fill="#d89b1d"/>
+  <path d="M32 15a17 17 0 1 0 15 25h-9a9 9 0 1 1 0-16h10a17 17 0 0 0-16-9z" fill="none" stroke="#d89b1d" stroke-width="5"/>
+  <path d="M31 32h20" stroke="#d89b1d" stroke-width="5" stroke-linecap="square"/>
+</svg>
